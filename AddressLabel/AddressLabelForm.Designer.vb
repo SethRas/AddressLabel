@@ -140,7 +140,7 @@ Partial Class AddressLabelForm
         '
         'DisplayButton
         '
-        Me.DisplayButton.Location = New System.Drawing.Point(12, 391)
+        Me.DisplayButton.Location = New System.Drawing.Point(385, 263)
         Me.DisplayButton.Name = "DisplayButton"
         Me.DisplayButton.Size = New System.Drawing.Size(75, 47)
         Me.DisplayButton.TabIndex = 12
@@ -149,7 +149,7 @@ Partial Class AddressLabelForm
         '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(94, 391)
+        Me.ClearButton.Location = New System.Drawing.Point(467, 263)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(75, 47)
         Me.ClearButton.TabIndex = 13
@@ -158,7 +158,7 @@ Partial Class AddressLabelForm
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(176, 391)
+        Me.ExitButton.Location = New System.Drawing.Point(549, 263)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(75, 47)
         Me.ExitButton.TabIndex = 14
@@ -190,22 +190,22 @@ Partial Class AddressLabelForm
         '
         Me.OutputGroupBox.Location = New System.Drawing.Point(385, 15)
         Me.OutputGroupBox.Name = "OutputGroupBox"
-        Me.OutputGroupBox.Size = New System.Drawing.Size(237, 311)
+        Me.OutputGroupBox.Size = New System.Drawing.Size(237, 235)
         Me.OutputGroupBox.TabIndex = 16
         Me.OutputGroupBox.TabStop = False
         Me.OutputGroupBox.Text = "Address Label"
         '
-        'Form1
+        'AddressLabelForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(800, 357)
         Me.Controls.Add(Me.OutputGroupBox)
         Me.Controls.Add(Me.InputGroupBox)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.ClearButton)
         Me.Controls.Add(Me.DisplayButton)
-        Me.Name = "Form1"
+        Me.Name = "AddressLabelForm"
         Me.Text = "Form1"
         Me.InputGroupBox.ResumeLayout(False)
         Me.InputGroupBox.PerformLayout()
